@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Título principal -->
+  <h1 class="page-title">CONVERSOR<br>DE MOEDAS</h1>
+
+  <!-- Subtítulo adaptado -->
+  <p class="subtitle">
+    Converta entre Real (BRL), Dólar (USD), Euro (EUR) e Iene (JPY) em tempo real.
+  </p>
+
+  <!-- Card do conversor -->
+  <div class="converter-box">
+    <div class="input-group">
+      <input type="text" id="valor" value="0,00">
+      <select id="moeda1">
+        <option value="BRL">Real (BRL)</option>
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="JPY">Iene (JPY)</option>
+      </select>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="valor2" placeholder="Digite o valor">
+      <select id="moeda2">
+        <option value="USD">Dólar (USD)</option>
+        <option value="BRL">Real (BRL)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="JPY">Iene (JPY)</option>
+      </select>
+    </div>
+  </div>
+
+  <script src="ConversorMoedas.js"></script>
+</body>
+</html>
